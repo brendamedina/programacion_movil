@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="margin_default">16dp</dimen>
+    <dimen name="corner_radius">8dp</dimen>
+    <dimen name="line_height">1dp</dimen>
+    <dimen name="height_logo">50dp</dimen>
+
+    <dimen name="font_size_title">20sp</dimen>
+
+    <dimen name="netflix_logo_height">50dp</dimen>
+    <dimen name="txt_sign_in">30dp</dimen>
+    <dimen name="padding_vertical">15dp</dimen>
+    <dimen name="fb_logo_height">28dp</dimen>
+    <dimen name="padding_start_sign_up_now">5dp</dimen>
+</resources>
