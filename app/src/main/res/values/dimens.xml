@@ -11,5 +11,7 @@
     <dimen name="txt_sign_in">30dp</dimen>
     <dimen name="padding_vertical">15dp</dimen>
     <dimen name="fb_logo_height">28dp</dimen>
-    <dimen name="padding_start_sign_up_now">5dp</dimen>
+    <dimen name="margin_start_sign_up_now">10dp</dimen>
+    <dimen name="txt_size_btn">18sp</dimen>
+    <dimen name="new_to_netflix_margin_bottom">70dp</dimen>
 </resources>
