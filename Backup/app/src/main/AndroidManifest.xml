@@ -14,15 +14,6 @@
         android:theme="@style/Theme.Anahuac"
         tools:targetApi="31">
         <activity
-            android:name=".ListCampusActivity"
-            android:exported="false" />
-        <activity
-            android:name=".RecyclerActivity"
-            android:exported="false" />
-        <activity
-            android:name=".GameActivity"
-            android:exported="false" />
-        <activity
             android:name=".LoginNetflixActivity"
             android:exported="false" />
         <activity

@@ -29,17 +29,11 @@
         android:layout_gravity="center"/>
 
     <Button
-        android:id="@+id/btn_recycler_view"
+        android:id="@+id/btn_sign_in_netflix"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Lista"
-        android:layout_gravity="center"/>
-
-    <Button
-        android:id="@+id/btn_recycler_campus"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:text="@string/btn_sign_in_netflix"
         android:layout_gravity="center"
-        android:text="Campus"/>
+        android:backgroundTint="@color/red_netflix"/>
 
 </LinearLayout>
