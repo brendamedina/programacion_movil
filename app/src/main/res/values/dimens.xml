@@ -13,7 +13,8 @@
     <dimen name="fb_logo_height">28dp</dimen>
     <dimen name="padding_start_sign_up_now">5dp</dimen>
 
-    <dimen name="campus_image_height">200dp</dimen>
+    <dimen name="campus_image_height">250dp</dimen>
     <dimen name="margin_medium">8dp</dimen>
+    <dimen name="padding_ver_mas">10dp</dimen>
 
 </resources>

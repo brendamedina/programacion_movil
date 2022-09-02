@@ -5,10 +5,11 @@
     xmlns:app="http://schemas.android.com/apk/res-auto">
 
     <androidx.cardview.widget.CardView
+        android:id="@+id/cv_campus"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         app:layout_constraintTop_toTopOf="parent"
-        android:layout_margin="@dimen/margin_medium"
+        android:layout_margin="@dimen/margin_default"
         app:cardCornerRadius="@dimen/corner_radius">
 
         <androidx.constraintlayout.widget.ConstraintLayout
@@ -20,35 +21,46 @@
             android:src="@drawable/ic_campus_cancun"
             android:scaleType="centerCrop"
             android:layout_width="match_parent"
-            android:layout_height="@dimen/campus_image_height"/>
+            android:layout_height="@dimen/campus_image_height"
+            app:layout_constraintTop_toTopOf="parent"/>
 
         <View
             android:layout_width="match_parent"
             android:layout_height="@dimen/campus_image_height"
-            android:background="@color/black_50"/>
-
-        <TextView
-            android:id="@+id/tv_campus_name"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/txt_anahuac_cancun"
-            android:layout_gravity="center|bottom"
-            android:textColor="@color/white"
-            android:textStyle="bold"
-            android:textSize="@dimen/font_size_title"
-            android:layout_margin="@dimen/margin_medium"
-            android:textAlignment="center"/>
-
-        <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/txt_ver_mas"
-            android:backgroundTint="@color/anahuac_orange"
-            />
-
+            android:background="@color/black_50"
+            app:layout_constraintTop_toTopOf="parent"/>
 
         </androidx.constraintlayout.widget.ConstraintLayout>
 
     </androidx.cardview.widget.CardView>
+
+    <TextView
+        android:id="@+id/tv_campus_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/txt_anahuac_cancun"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:textSize="@dimen/font_size_title"
+        android:layout_margin="@dimen/margin_default"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toTopOf="@id/btn_ver_mas"
+        app:layout_constraintStart_toStartOf="@id/cv_campus"
+        android:elevation="5dp"/>
+
+    <Button
+        android:id="@+id/btn_ver_mas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/txt_ver_mas"
+        android:textStyle="bold"
+        android:textSize="@dimen/font_size_title"
+        android:backgroundTint="@color/anahuac_orange"
+        android:padding="@dimen/padding_ver_mas"
+        app:layout_constraintBottom_toBottomOf="@id/cv_campus"
+        app:layout_constraintStart_toStartOf="@id/cv_campus"
+        app:layout_constraintEnd_toEndOf="@id/cv_campus"
+        app:layout_constraintTop_toBottomOf="@id/cv_campus"/>
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
