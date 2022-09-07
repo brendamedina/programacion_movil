@@ -19,4 +19,8 @@
     <string name="txt_anahuac_cancun">Universidad Anáhuac - Cancún</string>
     <string name="txt_ver_mas">Ver más</string>
 
+    <string name="btn_alerta">Alerta</string>
+    <string name="btn_alert_with_button">Alerta con botones</string>
+    <string name="btn_alert_with_options">Alerta con opciones</string>
+
 </resources>

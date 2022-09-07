@@ -3,6 +3,7 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="app/src/main/res/layout/activity_alert.xml" value="0.25" />
         <entry key="app/src/main/res/layout/activity_game.xml" value="0.24166666666666667" />
         <entry key="app/src/main/res/layout/activity_list_campus.xml" value="0.25" />
         <entry key="app/src/main/res/layout/activity_login_netflix.xml" value="0.25" />
