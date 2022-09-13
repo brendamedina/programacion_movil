@@ -16,5 +16,8 @@
     <dimen name="campus_image_height">250dp</dimen>
     <dimen name="margin_medium">8dp</dimen>
     <dimen name="padding_ver_mas">10dp</dimen>
+    
+    <dimen name="linear_padding_bottom">40dp</dimen>
+    <dimen name="corner_radius_login2">10dp</dimen>
 
 </resources>

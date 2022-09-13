@@ -3,9 +3,13 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="app/src/main/res/drawable/gradient_login2.xml" value="0.153" />
+        <entry key="app/src/main/res/drawable/rounded_corner.xml" value="0.153" />
         <entry key="app/src/main/res/layout/activity_alert.xml" value="0.25" />
         <entry key="app/src/main/res/layout/activity_game.xml" value="0.24166666666666667" />
         <entry key="app/src/main/res/layout/activity_list_campus.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/activity_login.xml" value="0.24479166666666666" />
+        <entry key="app/src/main/res/layout/activity_login2.xml" value="0.24479166666666666" />
         <entry key="app/src/main/res/layout/activity_login_netflix.xml" value="0.25" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.1634963768115942" />
         <entry key="app/src/main/res/layout/activity_recycler.xml" value="0.24166666666666667" />

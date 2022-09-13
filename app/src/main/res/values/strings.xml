@@ -23,4 +23,9 @@
     <string name="btn_alert_with_button">Alerta con botones</string>
     <string name="btn_alert_with_options">Alerta con opciones</string>
 
+
+    <string name="hint_my_mail">my@mail.com</string>
+    <string name="txt_login2">login</string>
+    <string name="forgot_password">forgot password?</string>
+
 </resources>

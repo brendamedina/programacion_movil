@@ -77,7 +77,7 @@ public class AlertActivity extends AppCompatActivity {
                         Toast.makeText(AlertActivity.this, array[i], Toast.LENGTH_SHORT).show();
                     }
                 });
-                builder.create().show(); 
+                builder.create().show();
             }
         });
     }
